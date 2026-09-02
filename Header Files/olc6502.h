@@ -10,6 +10,10 @@ class olc6502
         ~olc6502();
     
     public:
+        enum FLAGS6502
+        {
+            C = (1 << 0), //this is the carry bit apparently
+        }
         
 
 
