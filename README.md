@@ -11,6 +11,5 @@
 
 - lets start
 
-#2nd September 2026
-
-- (early morning) set up the main usb bus for the 6502 emulation, feeling lazy might do the core cpu componenets in the day
+#11th September 2026
+- SOme interesting things happened, back at it again. Adding core componenets of the CPU
