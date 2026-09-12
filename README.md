@@ -10,3 +10,7 @@
 #30th August 2026
 
 - lets start
+
+#2nd September 2026
+
+- (early morning) set up the main usb bus for the 6502 emulation, feeling lazy might do the core cpu componenets in the day
