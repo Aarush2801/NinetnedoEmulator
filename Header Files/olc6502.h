@@ -23,6 +23,13 @@ class olc6502
 
 
         };
+
+        uint8_t a = 0x00; // accumulator register
+        uint8_t x = 0x00; //X register
+        uint8_t y = 0x00; // Y register
+        uint8_t stkp = 0x00; // STack pointer (will point to location in bus)
+        uint16_t pc = 0x0000; // Program counter
+        uint8_t status = 0x00; //Status registerer
         
 
 
