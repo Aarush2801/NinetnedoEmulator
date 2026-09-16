@@ -33,19 +33,27 @@ class olc6502
         
 
 
-
-
-
-
-
-
-
         void ConnectBus(Bus *n){    bus = n;  }
+
+        // Addressing mode
+
+        uint8_t IMP();  uint8_t IMP();
+        uint8_t IMP();  uint8_t IMP();
+        uint8_t IMP();  uint8_t IMP();
+        uint8_t IMP();  uint8_t IMP();
+        uint8_t IMP();  uint8_t IMP();
+        uint8_t IMP();  uint8_t IMP();
+
 
     private:
         Bus        *bus = nullptr;
          uint8_t read(uint16_t a);
          void  write(uint16_t a, uint8_t d);
+
+         // just a convenience function
+
+         uint8_t GetFlag(FLAGS6502 f);
+         void SetFlag(FLAG6502 f, bool v);
     
 
 };
